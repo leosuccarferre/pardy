@@ -69,7 +69,7 @@ export default function Nav() {
               large
               type="email"
               leftIcon="envelope"
-              autoFocus="true"
+              autoFocus={true}
             />
           </FormGroup>
 
