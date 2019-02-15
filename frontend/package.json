@@ -4,7 +4,9 @@
   "description": "the frontend of pardy",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next -p 7777",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "",
   "license": "ISC",
