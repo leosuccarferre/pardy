@@ -1,7 +1,7 @@
-import Layout from "../components/Layout";
+import Page from "../components/Page";
 
 export default () => (
-  <Layout>
+  <Page>
     <p>Couldn't find that page.</p>
-  </Layout>
+  </Page>
 );

@@ -1,9 +1,8 @@
-import Layout from "../components/Layout";
 
-const Index = () => (
-  <Layout>
-    <p>Welcome to my what</p>
-  </Layout>
+const Home = props => (
+  <div>
+    Homepage
+  </div>
 );
 
-export default Index;
+export default Home;

@@ -1,8 +1,16 @@
+# import * from './generated/prisma.graphql'
 
 type Mutation {
-    hi: String
+    createClue(
+        category: String,
+        difficulty: Int,
+        question: String,
+        choices: String,
+        answer: String,
+        airDate: DateTime
+    ):Item!
 }
 
 type Query {
-    hi: String
+    clues: [Clue]!
 }

@@ -27,8 +27,8 @@ export default function Nav() {
       <Navbar>
         <Navbar.Group align={Alignment.LEFT}>
           <Navbar.Heading>
-            <Link href="/">
-              <strong><a>Pardy!</a></strong>
+            <Link mr={0} href="/">
+              <a>Pardy!</a>
             </Link>
           </Navbar.Heading>
           <Navbar.Divider />
