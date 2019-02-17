@@ -1,7 +1,5 @@
-import Page from "../components/Page";
-
 export default () => (
-  <Page>
+  <div>
     <p>Couldn't find that page.</p>
-  </Page>
+  </div>
 );

@@ -1,4 +1,3 @@
-
 const Home = props => (
   <div>
     Homepage

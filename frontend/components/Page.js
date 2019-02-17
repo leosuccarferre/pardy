@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import styled, { ThemeProvider, injectGlobal } from 'styled-components';
-import Header from './Header';
-import Meta from './Meta';
+import React, { Component } from "react";
+import styled, { ThemeProvider, injectGlobal } from "styled-components";
+import Header from "./Header";
+import Meta from "./Meta";
 
 import "normalize.css/normalize.css";
 import "@blueprintjs/core/lib/css/blueprint.css";
