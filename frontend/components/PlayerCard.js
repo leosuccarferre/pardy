@@ -16,7 +16,7 @@ const PlayerScore = styled.div``;
 
 export default function PlayerCard() {
   return (
-    <div>
+    <Box mb={3}>
       <Card>
         <Flex>
           <PlayerAvatar src="../static/barry-avatar.jpg" />
@@ -28,6 +28,6 @@ export default function PlayerCard() {
           </Box>
         </Flex>
       </Card>
-    </div>
+    </Box>
   );
 }
